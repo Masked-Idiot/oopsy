@@ -3,7 +3,7 @@ function class(methods)
 	instance={}
 	function instance:new(args)
 		local inst = class_
-		class_.init(inst, args)
+		class_:init(args)
 		return inst
 	end
 	instance.init = class_.init

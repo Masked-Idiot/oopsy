@@ -1,8 +1,8 @@
 require("oopsy")
 local person = class({
-	init = function(this, args)
-        this.name = args[1]
-        this.age = args[2]
+	init = function(self, args)
+        self.name = args[1]
+        self.age = args[2]
 	end,
 	describe = function(self)
 		print("Hello, I am " .. self.name .. ", and I am " .. tostring(self.age) .. " years old!")
