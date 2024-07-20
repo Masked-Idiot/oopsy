@@ -5,7 +5,9 @@ I'm probably going to add stuff like inheritance and what not, but I'll probably
 
 # How to Use
 import the module with
-`require("oopsy")`
+```lua
+require("oopsy")
+```
 and define a class with
 ```lua
 name = class({
