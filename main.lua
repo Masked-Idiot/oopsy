@@ -1,4 +1,4 @@
-require("class")
+require("oopsy")
 local person = class({
 	init = function(this, args)
         this.name = args[1]
