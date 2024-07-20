@@ -1,16 +1,16 @@
 package = "oopsy"
 version = "dev-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "https://github.com/masked-idiot/oopsy"
 }
 description = {
    homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   license = "GPL-3.0 license"
 }
 build = {
    type = "builtin",
    modules = {
-      class = "class.lua",
+      oopsy = "oopsy.lua",
       main = "main.lua"
    }
 }
