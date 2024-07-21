@@ -1,5 +1,7 @@
 # Oopsy ¯\\\_(ツ)\_/¯
 An oop library for lua that was made on accident
+
+fyi the main.lua file is what it should look like for a class/subclass, the actual module is oopsy.lua
 <br>
 I'm probably going to add stuff like inheritance and what not, but I'll probably do it later
 
