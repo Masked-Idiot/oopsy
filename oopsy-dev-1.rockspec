@@ -4,8 +4,11 @@ source = {
    url = "https://github.com/masked-idiot/oopsy"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
+   homepage = "http://...",
    license = "GPL-3.0 license"
+}
+dependencies = {
+   "lua >= 5.1"
 }
 build = {
    type = "builtin",
