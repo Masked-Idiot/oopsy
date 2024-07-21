@@ -12,7 +12,7 @@ require("oopsy")
 ```
 and define a class with
 ```lua
-name = class({
+name = class({},{
 	init = function(self, args)
 		self.x = args[1]
 		self.y = args[2]
