@@ -2,4 +2,4 @@
 /lua.bat
 /lua_modules
 /.luarocks
-/oopsy-dev-1.all.rock
+/*.all.rock
