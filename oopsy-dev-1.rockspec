@@ -4,7 +4,7 @@ source = {
    url = "https://github.com/masked-idiot/oopsy"
 }
 description = {
-   homepage = "http://...",
+   homepage = "https://github.com/masked-idiot/oopsy",
    license = "GPL-3.0 license"
 }
 dependencies = {
