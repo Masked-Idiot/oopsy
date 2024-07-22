@@ -1,11 +1,19 @@
-function class(methods)
+function class(parents, methods)
 	local class_ = methods
-	instance={}
-	function instance:new(args)
-		local inst = class_
-		class_:init(args)
-		return inst
-	end
+	local instance = {}
 	instance.init = class_.init
+	instance.methods = methods
+	for i,parent in ipairs(parents) do
+		for name,method in pairs(parent.methods) do
+			if name ~= "init" then
+				instance.methods[name] = method
+				class_[name] = method
+			end
+		end
+	end
+	function instance:new(args)
+		class_:init(args)
+		return class_
+	end
 	return instance
 end
