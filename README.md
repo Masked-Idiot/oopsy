@@ -22,3 +22,19 @@ name = class({},{
 	end
 })
 ```
+# Inheritance
+I only recently added inhertance so it might be a little weird
+Define a subclass with
+```lua
+name = class({parent},{
+	init = function(self, args)
+		parent.init(self, args)
+		self.attr1 = args[3]
+		self.attr2 = args[4]
+	end,
+	method = function(self)
+		doStuff()
+	end
+})
+```
+look in [main.lua](https://github.com/Masked-Idiot/oopsy/blob/main/main.lua) for better examples, these ones suck lol
