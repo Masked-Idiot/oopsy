@@ -22,3 +22,7 @@ local worker = class({person},{
 local brink = worker:new({"Mark", 50, 20, 300})
 local liam = person:new({"Liam", 13})
 liam:describe()
+print(brink.money)
+brink:work()
+print(brink.money)
+brink:describe()
