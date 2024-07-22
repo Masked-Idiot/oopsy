@@ -19,6 +19,6 @@ local worker = class({person},{
 	end
 })
 
---local brink = worker:new({"Mark", 50, 20, 300})
+local brink = worker:new({"Mark", 50, 20, 300})
 local liam = person:new({"Liam", 13})
 liam:describe()
