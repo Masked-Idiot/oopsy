@@ -13,7 +13,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      oopsy = "oopsy.lua",
-      main = "main.lua"
+      oopsy = "oopsy.lua"
    }
 }

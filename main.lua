@@ -1,4 +1,4 @@
-require("oopsy")
+class = require("oopsy")
 local person = class({},{
 	init = function(self, args)
         self.name = args[1]
